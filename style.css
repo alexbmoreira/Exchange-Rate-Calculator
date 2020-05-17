@@ -7,6 +7,7 @@
 
 body
 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #C5C5C5;
     display: flex;
     flex-direction: column;
@@ -14,6 +15,12 @@ body
     align-items: center;
     justify-content: center;
     padding: 20px;
+}
+
+img
+{
+    width: 10%;
+    padding-bottom: 50px;
 }
 
 h1
@@ -55,14 +62,17 @@ p
     border-radius: 5px;
 }
 
-.currency input
+.currency input, .currency span
 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background: transparent;
     border: 0;
     font-size: 30px;
     text-align: right;
     width: 200px;
 }
+
+.currency span { padding-right: 18px; }
 
 .swap
 {
