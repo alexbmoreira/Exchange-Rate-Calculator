@@ -1,0 +1,84 @@
+:root
+{
+    --main-color: #8A4FFF;
+}
+
+* { box-sizing: border-box;}
+
+body
+{
+    background-color: #C5C5C5;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+h1
+{
+    color: var(--main-color);
+}
+
+p
+{
+    text-align: center;
+}
+
+.btn
+{
+    background: var(--main-color);
+    color: #FFFFFF;
+    margin: 5px 0;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+}
+
+.currency
+{
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.currency select
+{
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    padding: 5px 20px 5px 10px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.currency input
+{
+    background: transparent;
+    border: 0;
+    font-size: 30px;
+    text-align: right;
+    width: 200px;
+}
+
+.swap
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rate
+{
+    color: var(--main-color);
+    font-size: 16px;
+    padding: 0 10px;
+}
+
+select:focus, input:focus, button:focus
+{
+    outline: 0;
+}
