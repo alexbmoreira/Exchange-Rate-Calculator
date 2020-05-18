@@ -29,7 +29,6 @@ function caclulate()
         .then(res => res.json())
         .then(data =>
         {
-            console.log(data)
             amount_to.innerText = (amount_from.value * data.rates[to]).toFixed(2);
 
             rate.innerText = `1.00 ${from} ~ ${(data.rates[to]).toFixed(2)} ${to}`
